@@ -1,0 +1,74 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-image: url("../img/building.png");
+    height: 300px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+nav{
+   margin-top: 45px; 
+}
+
+li {
+    list-style: none;
+    margin-top: 15px; 
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#our_process h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+}
+
+
+#info h2 {
+    background-image: url("../img/building.png");
+    font-size: 23px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: dimgray;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer p {
+    color: white;
+}
+
+footer nav ul{
+    display: flex;
+    margin-top: -48px;
+}
+
+footer nav ul li {
+    margin-right: 15px;
+    color: white;
+}
+
+
